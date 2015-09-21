@@ -1,0 +1,16 @@
+{{outlet}}
+<center>
+  <h1>Burrito Factory</h1>
+</center>
+<h2>Welcome to burrito factory. Where your dreams are literally
+  made of burritos.</h2>
+
+
+<ul>
+  {{#each model as |burrito|}}
+    {{burrito-tile burrito=burrito destroyBurrito='destroyBurrito'}}
+  {{/each}}
+</ul>
+
+{{#link-to 'about'}}Learn about us!{{/link-to}}<br>
+{{#link-to 'contact'}}Please contact us right away!{{/link-to}}

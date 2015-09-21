@@ -1,0 +1,8 @@
+<li>{{burrito.name}} burrito is {{burrito.size}}. Comes with {{burrito.sauce}} sauce
+  {{#if isImageShowing}}
+    <img src={{burrito.image}} {{action 'imageHide'}}>
+  {{else}}
+    <button {{action 'imageShow'}}>Show me that burrito!</button>
+  {{/if}}
+  <button {{action 'delete' burrito}}>Delete</button>
+</li>

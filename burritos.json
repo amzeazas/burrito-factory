@@ -1,0 +1,23 @@
+{ "burritos": [{
+    "name": "The Narrator",
+    "size": "Just Right",
+    "sauce": "rojo",
+    "enchiloso": "claro que sí",
+    "cost": "expensive",
+    "image": "http://cdn.thedailybeast.com/content/dailybeast/articles/2015/05/06/morgan-freeman-shoots-straight-on-legalizing-marijuana-and-his-escape-from-new-york/jcr:content/image.crop.800.500.jpg/47697387.cached.jpg"
+  }, {
+    "name": "Mom",
+    "size": "Good enough",
+    "sauce": "Blue",
+    "enchiloso": "Muchachos Grande",
+    "cost": "less expensive",
+    "image": "http://i.telegraph.co.uk/multimedia/archive/00786/dench0806epa_786884c.jpg"
+  }, {
+    "name": "Ummm...",
+    "size": "jumbo",
+    "sauce": "Doesn't need it",
+    "enchiloso": "poco loco",
+    "cost": "cheap",
+    "image": "http://www.thewrap.com/wp-content/uploads/2014/04/Mickey-Rooney-DC.jpg"
+  }]
+}
