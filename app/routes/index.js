@@ -6,6 +6,13 @@ export default Ember.Route.extend({
   },
 
   actions: {
+
+    save3(params) {
+      var newBurrito = this.store.createRecord('burrito', params);
+      newBurrito.save();
+      this.transitionTo('index');
+    },
+
     destroyBurrito(burrito) {
       burrito.destroyRecord();
       this.transitionTo('index');

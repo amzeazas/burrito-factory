@@ -1,0 +1,42 @@
+{{yield}}
+
+{{#if addNewBurrito}}
+<h1>New Burrito</h1>
+<div>
+  <form>
+    <div class="form-group">
+      <label for="owner">Cost</label>
+      {{input value=cost id="cost"}}
+    </div>
+
+    <div class="form-group">
+      <label for="enchiloso">Enchiloso</label>
+      {{input value=enchiloso id="enchiloso"}}
+    </div>
+
+    <div class="form-group">
+      <label for="image">Image</label>
+      {{input value=image id="image"}}
+    </div>
+
+    <div class="form-group">
+      <label for="name">Name</label>
+      {{input value=name id="name"}}
+    </div>
+
+    <div class="form-group">
+      <label for="sauce">Sauce</label>
+      {{input value=sauce id="sauce"}}
+    </div>
+
+    <div class="form-group">
+      <label for="size">Size</label>
+      {{input value=size id="size"}}
+    </div>
+
+    <button {{action 'save1'}}>Save</button>
+  </form>
+</div>
+{{else}}
+  <button {{action 'burritoFormShow'}}>New Burrito</button>
+{{/if}}
