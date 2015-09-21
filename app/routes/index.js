@@ -10,6 +10,7 @@ export default Ember.Route.extend({
     save3(params) {
       var newBurrito = this.store.createRecord('burrito', params);
       newBurrito.save();
+      this.set();
       this.transitionTo('index');
     },
 
